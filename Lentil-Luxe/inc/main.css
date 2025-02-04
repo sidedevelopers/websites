@@ -27,7 +27,14 @@ body{
 /* addons end */
 
 /* header start */
-
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--color-secondary);
+}
 /* header end */
 
 /* footer start */
