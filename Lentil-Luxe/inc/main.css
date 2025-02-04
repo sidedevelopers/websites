@@ -1,9 +1,24 @@
 /* global start */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 :root{
-    --color-primary: ;
-    --color-secondary: ;
+    --color-primary: #341b0c;
+    --color-secondary: #b96938;
     --font-league-spartan: "League Spartan", serif;
+}
+body{
+    font-family: var(--font-league-spartan);
+}
+.color-primary{
+    color: var(--color-primary);
+}
+.color-secondary{
+    color: var(--color-secondary);
+}
+.background-primary{
+    background-color: var(--color-primary);
+}
+.background-secondary{
+    background-color: var(--color-secondary);
 }
 /* global end */
 
@@ -15,6 +30,40 @@
 
 /* header end */
 
+/* footer start */
+.footer-ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-ul li{
+    margin-bottom: 10px;
+}
+.footer-ul li a{
+    color: var(--color-primary);
+    font-weight: bold;
+}
+/* footer end */
+
 /* hero start */
 
 /* hero end */
+
+
+
+
+/* info start */
+.box-info{
+    padding: 2rem 3rem;
+}
+/* info end */
+
+
+.btn-product {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border: 2px solid var(--color-primary);
+}
