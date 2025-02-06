@@ -9,6 +9,7 @@
 
 body {
     font-family: var(--font-league-spartan);
+    font-size: 1.1rem;
 }
 
 .color-primary {
@@ -29,10 +30,11 @@ body {
 
 a {
     text-decoration: none;
-  }
-  a:hover{
+}
+
+a:hover {
     text-decoration: underline;
-  }
+}
 
 /* global end */
 
@@ -79,9 +81,14 @@ a {
     color: var(--color-secondary);
 }
 
+.navbar-nav .nav-item.active .nav-link {
+    color: var(--color-secondary);
+}
+
 .dropdown-menu li a {
     color: var(--color-primary);
     font-weight: 500;
+    font-size: 1.1rem;
 }
 
 .dropdown-menu li a:hover {
@@ -92,6 +99,18 @@ a {
 @media (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
     }
 }
 
@@ -108,11 +127,15 @@ a {
 }
 
 .footer-ul li a {
-    color: #fff;
+    color: #000;
 }
 
 .footer-ul li a:hover {
     color: var(--color-secondary);
+}
+
+.footer-fluid2 {
+    font-size: 1rem;
 }
 
 /* footer end */
@@ -128,11 +151,14 @@ a {
 .box-info {
     padding: 2rem 5rem;
     background-color: #000000c2;
-}
-.box-info a{
     color: #fff;
 }
-.box-info a:hover{
+
+.box-info a {
+    color: #fff;
+}
+
+.box-info a:hover {
     color: var(--color-secondary);
 }
 
@@ -145,16 +171,23 @@ a {
     object-fit: cover;
     z-index: -1;
 }
-.line-small{
+
+.line-small {
     width: 100px;
     height: 1px;
     display: block;
     margin: auto;
 }
-.line-100{
+
+.line-100 {
     width: 100%;
     height: 1px;
-    background-color: var(--color-secondary);
+}
+
+@media only screen and (max-width: 768px) {
+    .box-info {
+        padding: 3rem 1rem;
+    }
 }
 
 /* info end */
