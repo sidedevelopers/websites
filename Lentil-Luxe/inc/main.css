@@ -193,7 +193,7 @@ a:hover {
 /* info end */
 
 /* inner banner start */
-.inner-banner {
+/* .inner-banner {
     background-size: cover;
     background-position: center;
     height: 15rem;
@@ -211,8 +211,45 @@ a:hover {
     left: 0;
     top: 0;
     background-color: #0000008f;
-}
+} */
 /* inner banner end */
+
+/* inner banner start */
+.inner-banner img {
+    height: 14rem;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+  .inner-banner .breadcrumb {
+    justify-content: flex-end;
+  }
+  .inner-banner .breadcrumb li {
+    color: #fff;
+  }
+  .inner-banner .breadcrumb li.breadcrumb-item a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .inner-banner .breadcrumb li.breadcrumb-item a:hover {
+    color: yellow;
+  }
+  .inner-banner .breadcrumb .breadcrumb-item:before {
+    color: #fff;
+  }
+  .card-img-overlay {
+    left: 70px;
+    right: 70px;
+  }
+  @media only screen and (max-width: 768px) {
+    .card-img-overlay {
+      left: 0;
+      right: 0;
+    }
+    .inner-banner .breadcrumb {
+      justify-content: center;
+    }
+  }
+  /* inner banner end */
 
 .btn-product {
     background-color: var(--color-primary);
