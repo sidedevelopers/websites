@@ -192,6 +192,27 @@ a:hover {
 
 /* info end */
 
+/* inner banner start */
+.inner-banner {
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inner-banner:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #0000008f;
+}
+/* inner banner end */
 
 .btn-product {
     background-color: var(--color-primary);
