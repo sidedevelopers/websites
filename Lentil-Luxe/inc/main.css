@@ -27,6 +27,13 @@ body {
     background-color: var(--color-secondary);
 }
 
+a {
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
 /* global end */
 
 /* addons start */
@@ -119,7 +126,14 @@ body {
 
 /* info start */
 .box-info {
-    padding: 2rem 3rem;
+    padding: 2rem 5rem;
+    background-color: #000000c2;
+}
+.box-info a{
+    color: #fff;
+}
+.box-info a:hover{
+    color: var(--color-secondary);
 }
 
 .info-video {
@@ -130,6 +144,17 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+.line-small{
+    width: 100px;
+    height: 1px;
+    display: block;
+    margin: auto;
+}
+.line-100{
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-secondary);
 }
 
 /* info end */
