@@ -150,6 +150,14 @@ a:hover {
     top: 56%;
     transform: translateY(-50%);
 }
+@media only screen and (max-width: 768px) {
+.hero-img {
+    height: 20rem;
+}
+.hero-caption {
+    top: 46%;
+}
+}
 /* hero end */
 
 /* home about start */
@@ -167,6 +175,14 @@ a:hover {
     bottom: 0;
     z-index: -1;
     transform: rotateY(180deg);
+}
+@media only screen and (max-width: 768px) {
+    .ha-icon1 {
+        width: 160px;
+    }
+    .ha-icon2 {
+        width: 150px;
+    }   
 }
 /* home about end */
 
@@ -356,5 +372,10 @@ a:hover {
 .pulses-row img{
     height: 10rem;
     object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+.pulses-row img {
+    height: 6.5rem;
+}
 }
   /* product page end */
