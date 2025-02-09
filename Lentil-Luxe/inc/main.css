@@ -352,3 +352,9 @@ a:hover {
   }
   /* contact end */
   
+  /* product page start */
+.pulses-row img{
+    height: 10rem;
+    object-fit: cover;
+}
+  /* product page end */
