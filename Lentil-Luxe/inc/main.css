@@ -152,8 +152,23 @@ a:hover {
 }
 /* hero end */
 
-
-
+/* home about start */
+.ha-icon1 {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.ha-icon2 {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: rotateY(180deg);
+}
+/* home about end */
 
 /* info start */
 .box-info {
