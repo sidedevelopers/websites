@@ -141,7 +141,15 @@ a:hover {
 /* footer end */
 
 /* hero start */
-
+.hero-img{
+    height: 28rem;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.hero-caption {
+    top: 56%;
+    transform: translateY(-50%);
+}
 /* hero end */
 
 
