@@ -1,10 +1,11 @@
 /* global start */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 :root {
     --color-primary: #341b0c;
     --color-secondary: #b96938;
     --font-league-spartan: "League Spartan", serif;
+    --font-signature: "Yellowtail", serif;
 }
 
 body {
@@ -379,3 +380,12 @@ a:hover {
 }
 }
   /* product page end */
+
+  /* ceo start */
+.ceo{
+    background-image: radial-gradient(at center right, #353A4F 0%, #05060B 66%);
+}
+.signature{
+    font-family: var(--font-signature);
+}
+  /* ceo end */
