@@ -388,4 +388,7 @@ a:hover {
 .signature{
     font-family: var(--font-signature);
 }
+.ceo img{
+    filter: brightness(1.4);
+}
   /* ceo end */
