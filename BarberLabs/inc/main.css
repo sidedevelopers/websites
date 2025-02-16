@@ -3,6 +3,7 @@
 :root {
     --color-primary: #F73F03;
     --color-secondary: #fdf4f3;
+    --color-warning: #ffca2c;
     --font-roboto: "Roboto", serif;
 }
 body {
@@ -67,7 +68,7 @@ header{
     font-weight: 500;
 }
 .navbar-nav .nav-item .nav-link:hover{
-    color: var(--color-primary);
+    color: var(--color-warning);
 }
 .dropdown-menu .dropdown-item{
     font-weight: 500;
