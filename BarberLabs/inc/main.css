@@ -13,6 +13,9 @@ body {
   font-variation-settings:
     "wdth" 100;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: serif;
+}
 .btn-global{
     color: #fff;
     background-color: var(--color-primary);
@@ -20,6 +23,7 @@ body {
 .color-primary{
     color: var(--color-primary);
 }
+
 /* global css end */
 
 /* addons start */
@@ -101,7 +105,7 @@ header{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('../images/hero.webp');
+    background-image: url('../img/hero.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
