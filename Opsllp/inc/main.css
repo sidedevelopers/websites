@@ -1,0 +1,238 @@
+/* global start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+:root {
+    --color-primary: #253B7D;
+    --color-secondary: #ED2024;
+    --color-secondary-hover: #c01b1e;
+    --color-content: #3F4254;
+    --font-inter: "Inter", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+}
+
+.form-control:focus {
+    box-shadow: unset;
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 768px) {
+    .container-pc-90 {
+        max-width: 90%;
+    }
+}
+
+body {
+    font-family: var(--font-inter);
+}
+
+.btn-red {
+    background-color: var(--color-secondary);
+}
+
+.btn-red:hover {
+    background-color: var(--color-secondary-hover);
+}
+
+.btn-shine {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-shine:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, .3) 50%, transparent 100%);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    animation: shine 2s linear infinite;
+    transform: skewX(30deg)
+}
+
+@keyframes shine {
+    0% {
+        left: -5%
+    }
+
+    100% {
+        left: 60%
+    }
+}
+
+.global-title {
+    font-family: var(--font-poppins);
+    font-size: 4rem;
+    opacity: 0.7;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-primary);
+    color: transparent;
+}
+
+.color-content {
+    color: var(--color-content);
+}
+
+@media only screen and (max-width: 768px) {
+    .global-title {
+        font-family: var(--font-poppins);
+        font-size: 3rem;
+        opacity: 0.7;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--color-primary);
+        color: transparent;
+    }
+}
+
+/* global end */
+
+/* header start */
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-weight: 500;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--color-secondary);
+}
+
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+
+    .offcanvas-header {
+        background-color: #b6c8ff;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
+    }
+}
+
+/* header end */
+
+/* footer start */
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-ul li {
+    margin-bottom: 15px;
+}
+
+.footer-ul li a {
+    color: #fff;
+}
+
+.footer-ul li a:hover {
+    color: var(--color-secondary);
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: var(--color-secondary);
+}
+
+/* footer end */
+
+/* hero start */
+.hero-img {
+    height: 32rem;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.hero-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-caption {
+        transform: translateY(-80%);
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .hero-caption {
+        left: 11%;
+        right: 11%;
+    }
+}
+
+/* hero end */
+
+/* contact start */
+.cf2-control,
+.cf2-control:focus {
+    background-color: #f7f7f8;
+    color: #282828;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.contact-map {
+    height: 400px;
+}
+
+/* contact end */
+
+/* inner-banner start */
+.inner-banner img {
+    height: 12rem;
+    object-fit: cover;
+}
+
+.inner-banner .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 8rem;
+    background: linear-gradient(270deg, var(--color-primary) 32%, #FFFFFF00 100%);
+}
+
+.inner-banner .card-img-overlay p {
+    border-right: 1px solid var(--color-secondary);
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .inner-banner .card-img-overlay {
+        padding-right: 3rem;
+    }
+}
+
+/* inner banner end */
