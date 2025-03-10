@@ -168,7 +168,26 @@ footer a:hover {
 /* footer end */
 
 /* hero start */
-.hero-img {
+.hero {
+    background-image: url("https://www.franchiseindia.com/newhomepage/assets/img/banner-expo.jpg");
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 9rem;
+  }
+  /* https://www.franchiseindia.com/newhomepage/assets/img/banner-expo.jpg */
+  /* hero end */
+  
+  /* business box start */
+  .business-box {
+    background-color: #fff;
+  }
+  .section-bb {
+    margin-top: -5rem;
+  }
+  /* business box end */
+
+/* hero start */
+/* .hero-img {
     height: 32rem;
     object-fit: cover;
     filter: brightness(0.4);
@@ -190,7 +209,7 @@ footer a:hover {
         left: 11%;
         right: 11%;
     }
-}
+} */
 
 /* hero end */
 

@@ -15,10 +15,10 @@
     <!-- ######################################################################### -->
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-xl py-0">
+        <nav class="navbar navbar-expand-xl py-3">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="img/ops.webp" alt="" />
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -33,19 +33,19 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about-us.php">About OPS</a>
+                                <a class="nav-link" href="about-us.html">About OPS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="services.php">Services</a>
+                                <a class="nav-link" href="services.html">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Service Partners</a>
                             </li>
                         </ul>
-                        <a href="contact-us.php"
+                        <a href="contact-us.html"
                             class="btn btn-red text-white btn-shine py-2 px-4 rounded-0 mt-2 mt-lg-0">
                             Contact Us
                         </a>
@@ -58,7 +58,142 @@
     <!-- ######################################################################### -->
 
     <!-- hero start -->
-    <section>
+    <section class="hero">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="text-white fs-2 mb-0">Search from <span class="text-warning">100+ Businesses</span>
+                            options</h3>
+                        <div class="text-white fs-5 fw-lighter">India's highest visited franchise website network</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="text-white">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+
+                <form class="row g-2 align-items-center mt-5">
+
+                    <div class="col-md-12">
+                        <div class="bg-secondary text-white d-inline px-3 py-2">
+                            Categories
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                        <select class="form-select rounded-0" id="inlineFormSelectPref">
+                            <option selected>Select Industry...</option>
+                            <option value="1">Automotive</option>
+                            <option value="2">Beauty &amp; Health</option>
+                            <option value="3">Business Services</option>
+                            <option value="">Dealers &amp; Distributors</option>
+                            <option value="">Education</option>
+                            <option value="">Fashion</option>
+                            <option value="">Food And Beverage</option>
+                            <option value="">Home Based Business</option>
+                            <option value="">Hotel, Travel &amp; Tourism</option>
+                            <option value="">Retail</option>
+                            <option value="">Sports, Fitness &amp; Entertainment</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-5">
+                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                        <select class="form-select rounded-0" id="inlineFormSelectPref">
+                            <option selected>Select Service/Product...</option>
+                            <option value="1">Mentha</option>
+                            <option value="2">Scooty</option>
+                            <option value="3">Oil</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100 rounded-0">Search</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-bb">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="business-box shadow p-3">
+                    <div class="row">
+                        <div class="col-md-8">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="bg-primary text-white d-flex p-2">
+                                        <div class="">
+                                            <h6 class="mb-0">Start A Business Today</h6>
+                                            <div>(Investor Registration)</div>
+                                        </div>
+                                        <span class="sd-icon-right-arrow"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bg-primary text-white d-flex p-2">
+                                        <div class="">
+                                            <h6 class="mb-0">Appoint Channel partners</h6>
+                                            <div>(Franchisor Registration)</div>
+                                        </div>
+                                        <span class="sd-icon-right-arrow">ss</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h5 class="mt-4">Why Should I Register ?</h5>
+                            <p>To get access to over 100+ Franchise Business Opportunities.</p>
+                            <p>Network with the growing Business Community to get expert interventions to let you learn
+                                to Grow & Expand your Business with Franchising.</p>
+                            <p>Network with the growing Business Community to get expert interventions to let you learn
+                                to Grow & Expand your Business with Franchising.</p>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-light h-100 px-4 py-3">
+                                <h5 class="text-center mb-3">Ask our Experts</h5>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Name" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Enter Email" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Phone" />
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- <section class="hero2" style="background-image: url('img/hero1.jpg');">
+        <div class="container-fluid">
+            <div class="container">
+                <h3 class="text-center text-white fw-bolder fs-1">
+                    SERVICES ACROSS 2000+ CITIES
+                </h3>
+                <div class="hero2-box">
+                    
+                </div>
+            </div>
+        </div>
+     </section> -->
+    <!-- <section>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -109,7 +244,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </section>
+    </section> -->
     <!-- hero end -->
     <!-- ######################################################################### -->
 
@@ -429,9 +564,9 @@
                 <div class="row gy-4 gy-md-0">
                     <div class="col-md-3">
                         <a class="navbar-brand" href="#">
-                            <img src="img/ops.webp" alt="" />
+                            <img src="img/logo.png" alt="" />
                         </a>
-                        <p class="text-white mb-0">
+                        <p class="text-white mb-0 mt-4">
                             Ocean Premium Services LLP delivers cutting-edge cab services with a commitment to
                             excellence. Backed by two decades of unmatched expertise and honored as the ‘Best Ground
                             Transportation Supplier,’ we strive to make every journey smooth and efficient.
