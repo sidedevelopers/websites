@@ -1,0 +1,27 @@
+/* global start */
+:root{
+    --color-primary: #a00;
+    --color-secondary: #fc0;
+}
+.color-primary {
+    color: var(--color-primary);
+}
+.background-primary {
+    background-color: var(--color-primary);
+}
+a{
+    text-decoration: none;
+}
+/* global end */
+
+/* header start */
+.topbar a{
+    color: #fff;
+}
+.topbar a:hover{
+    color: var(--color-secondary);
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+/* header end */
