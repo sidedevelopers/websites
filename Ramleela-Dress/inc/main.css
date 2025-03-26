@@ -1,7 +1,20 @@
 /* global start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@font-face {
+    font-family: Anada-Namaste;
+    src: url("https://kastooree.sidedevelopers.com/wp-content/themes/kastooree/assets/fonts/Ananda-Namaste-Regular.ttf");
+  }
 :root{
     --color-primary: #a00;
     --color-secondary: #fc0;
+    --font-Anada-Namaste: Anada-Namaste;
+    --font-inter: "Inter", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-Anada-Namaste: Anada-Namaste;
+}
+body{
+    font-family: var(--font-inter);
 }
 .color-primary {
     color: var(--color-primary);
@@ -27,4 +40,43 @@ a{
 .navbar-nav .nav-item .nav-link:hover{
     color: var(--color-secondary);
 }
+.logobar h3{
+    font-family: var(--font-Anada-Namaste);
+}
+.dropdown-menu li a:hover {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+}
+
 /* header end */
+
+/* footer start */
+.footer-fluid1 {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.footer-ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-ul li{
+    margin-bottom: 10px;
+}
+.footer-ul li a{
+    color: #000;
+}
+.footer-ul li a:hover{
+    color: var(--color-primary);
+}
+.footer-fluid2 a{
+    color: var(--color-secondary);
+}
+.footer-fluid2 a:hover{
+   text-decoration: underline;
+}
+/* footer end */
