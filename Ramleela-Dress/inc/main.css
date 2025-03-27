@@ -80,3 +80,18 @@ a{
    text-decoration: underline;
 }
 /* footer end */
+
+/* section holder start */
+.section-holder {
+    background-color: #282828;
+    color: #fff;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+  }
+  .holder-div h6 {
+    font-size: 17px;
+  }
+  .holder-div p {
+    font-size: 14px;
+  }
+  /* section holder end */
