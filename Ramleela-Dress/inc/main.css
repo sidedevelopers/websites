@@ -25,6 +25,27 @@ body{
 a{
     text-decoration: none;
 }
+
+
+.global-title h3:before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    left: 0;
+    left: -135px;
+}
+.global-title h3:after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    right: -135px;
+}
 /* global end */
 
 /* header start */
