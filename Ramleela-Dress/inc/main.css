@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: Anada-Namaste;
-    src: url("https://kastooree.sidedevelopers.com/wp-content/themes/kastooree/assets/fonts/Ananda-Namaste-Regular.ttf");
+    src: url("Ananda-Namaste-Regular.ttf");
 }
 
 :root {
@@ -32,6 +32,9 @@ a {
     text-decoration: none;
 }
 
+.form-control:focus {
+    box-shadow: unset;
+}
 
 .global-title h3:before {
     content: '';
@@ -156,4 +159,25 @@ a {
     opacity: 1;
 }
 
+.card-product a{
+    color: #000;
+}
+.card-product a:hover{
+    color: var(--color-primary);
+}
 /* product end */
+
+/* instagram start */
+.instagram-div:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #00000066;
+}
+.instagram-div i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+/* instagram end */
