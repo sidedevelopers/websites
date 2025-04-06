@@ -1,0 +1,19 @@
+:root{
+    --color-primary: ;
+    --color-orange: #FF6F33;
+    --color-purple: #A3228D;
+    --color-blue: #004C8D;
+    --color-brown: #92665E;
+}
+.color-orange{
+    color: var(--color-orange);
+}
+.color-purple{
+    color: var(--color-purple);
+}
+.color-blue{
+    color: var(--color-blue);
+}
+.color-brown{
+    color: var(--color-brown);
+}
