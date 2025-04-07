@@ -63,14 +63,23 @@ header:before {
     right: 0;
     border-bottom-left-radius: 40px;
 }
-.border1 {
+/* .border1 {
     position: absolute;
     right: 12.65%;
     top: 9%;
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: #f8f7f0;
+    border-top-right-radius: 25px;
 }
+.border1:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border-top-right-radius: 25px;
+} */
 .navbar-brand img{
     width: 150px;
 }
@@ -82,6 +91,9 @@ header:before {
 }
 .navbar-nav .nav-item .nav-link:hover{
     color: var(--color-orange);
+}
+header a:hover{
+    color: #fff;
 }
 /* header end */
 
