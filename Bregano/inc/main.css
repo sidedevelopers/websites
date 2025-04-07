@@ -1,5 +1,6 @@
 /* global start */
 :root {
+    --color-green: #015A2C;
     --color-orange: #FF6F33;
     --color-purple: #A3228D;
     --color-blue: #004C8D;
@@ -23,6 +24,12 @@
 }
 
 /* global end */
+
+/* header start */
+.navbar-nav .nav-item .nav-link{
+    color: var(--color-green);
+}
+/* header end */
 
 /* footer start */
 .footer-ul {
