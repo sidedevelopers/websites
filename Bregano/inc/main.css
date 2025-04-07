@@ -7,6 +7,7 @@
     --color-blue: #004C8D;
     --color-brown: #92665E;
     --color-yellow: #FECF07;
+    --color-content: #404A3D;
     --font-dm-sans: "DM Sans", sans-serif;
 }
 body{
@@ -33,6 +34,10 @@ body{
     color: var(--color-green);
 }
 
+.color-content {
+    color: var(--color-content);
+}
+
 .background-orange {
     background-color: var(--color-orange);
 }
@@ -49,17 +54,34 @@ header{
     top: 0;
     width: 100%;
 }
+header:before {
+    content: '';
+    position: absolute;
+    width: 190px;
+    height: 130px;
+    background-color: #f8f7f0;
+    right: 0;
+    border-bottom-left-radius: 40px;
+}
+.border1 {
+    position: absolute;
+    right: 12.65%;
+    top: 9%;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
 .navbar-brand img{
     width: 150px;
 }
 .navbar-nav .nav-item .nav-link{
     color: var(--color-green);
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
 .navbar-nav .nav-item .nav-link:hover{
-    color: var(--color-yellow);
+    color: var(--color-orange);
 }
 /* header end */
 
