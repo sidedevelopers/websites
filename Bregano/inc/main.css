@@ -149,7 +149,14 @@ header a:hover{
 .footer-ul li {
     margin-bottom: 10px;
 }
-
+@media only screen and (max-width: 768px) {
+    .footer-fluid0 ul li{
+        margin-left: 0.3rem;
+      }
+      .footer-fluid0 span{
+        display: block;
+      }
+}
 /* footer end */
 
 /* section2 start */
