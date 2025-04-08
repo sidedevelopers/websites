@@ -95,6 +95,33 @@ header:before {
 header a:hover{
     color: #fff;
 }
+
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+    header{
+        position: relative;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .offcanvas-header{
+        background-color: var(--color-yellow);
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
+    }
+}
 /* header end */
 
 /* footer start */
