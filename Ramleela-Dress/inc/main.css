@@ -43,7 +43,6 @@ a {
     height: 2px;
     background-color: #000;
     top: 50%;
-    left: 0;
     left: -135px;
 }
 
@@ -55,6 +54,17 @@ a {
     background-color: #000;
     top: 50%;
     right: -135px;
+}
+
+@media only screen and (max-width: 768px) {
+    .global-title h3:before {
+        width: 60px;
+        left: -75px;
+    }
+    .global-title h3:after {
+        width: 60px;
+        right: -75px;
+    }
 }
 
 /* global end */
@@ -93,6 +103,18 @@ a {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
+    }
+}
+
 /* header end */
 
 /* footer start */
@@ -124,6 +146,12 @@ a {
 
 .footer-fluid2 a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-fluid2{
+        font-size: 0.9rem;
+    }
 }
 
 /* footer end */
@@ -164,6 +192,15 @@ a {
 }
 .card-product a:hover{
     color: var(--color-primary);
+}
+.img-a img{
+    height: 22.5rem;
+    object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+.img-a img{
+    height: 14.5rem;
+}
 }
 /* product end */
 
