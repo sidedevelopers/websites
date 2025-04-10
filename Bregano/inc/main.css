@@ -9,6 +9,7 @@
     --color-brown: #92665E;
     --color-yellow: #FECF07;
     --color-content: #404A3D;
+    --color-skyblue: #4DCAC8;
     --font-dm-sans: "DM Sans", sans-serif;
     --font-handlee: "Handlee", cursive;
 }
@@ -40,6 +41,10 @@ body {
 
 .color-content {
     color: var(--color-content);
+}
+
+.color-skyblue{
+    color: var(--color-skyblue);
 }
 
 .background-orange {
