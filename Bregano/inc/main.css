@@ -134,7 +134,7 @@ header {
 header:before {
     content: '';
     position: absolute;
-    width: 190px;
+    width: 175px;
     height: 130px;
     background-color: #f8f7f0;
     right: 0;
@@ -395,3 +395,9 @@ marquee div svg {
 }
 
 /* instagram end */
+
+/* home products start */
+.home-products{
+    background: linear-gradient(45deg, #FECF07, #FF6F33);
+}
+/* home products end */
