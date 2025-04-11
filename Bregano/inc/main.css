@@ -1,6 +1,7 @@
 /* global start */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 :root {
     --color-green: #015A2C;
     --color-orange: #FF6F33;
@@ -43,7 +44,7 @@ body {
     color: var(--color-content);
 }
 
-.color-skyblue{
+.color-skyblue {
     color: var(--color-skyblue);
 }
 
@@ -55,16 +56,24 @@ a {
     text-decoration: none;
 }
 
-.fs-heading{
+.fs-heading {
     font-size: 3.4rem;
 }
 
-.font-handlee{
+.font-handlee {
     font-family: var(--font-handlee);
 }
 
+.rotate-hover svg {
+    transition: transform 0.5s ease;
+  }
+  
+  .rotate-hover:hover svg {
+    transform: rotate(360deg);
+  }
+
 @media only screen and (max-width: 768px) {
-    .fs-heading{
+    .fs-heading {
         font-size: 2rem;
     }
 }
@@ -73,6 +82,7 @@ a {
 
 /* global end */
 @media (min-width: 1200px) {
+
     .container,
     .container-lg,
     .container-md,
@@ -109,6 +119,7 @@ a {
         left: 60%;
     }
 }
+
 /* addon start */
 
 /* addon end */
@@ -253,19 +264,20 @@ header a:hover {
     margin-bottom: 10px;
 }
 
-.footer-ul li a{
+.footer-ul li a {
     color: var(--color-content);
     font-weight: 500;
 }
 
-.footer-ul li a:hover{
+.footer-ul li a:hover {
     color: var(--color-skyblue);
 }
 
-.copyright a{
+.copyright a {
     font-weight: 500;
 }
-.copyright a:hover{
+
+.copyright a:hover {
     color: var(--color-orange);
 }
 
@@ -292,6 +304,32 @@ header a:hover {
     border-radius: 2rem;
 }
 
+.section2-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.section2-shape1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 65px;
+    height: 65px;
+    background-color: #F8F7F0;
+    border-top-left-radius: 32px;
+}
+
+/* .section2-shape2 {
+    position: absolute;
+    right: 0;
+    bottom: 65px;
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-bottom-right-radius: 11px;
+} */
+
 /* section2 end */
 
 /* marquee start */
@@ -312,13 +350,14 @@ marquee div svg {
 /* marquee end */
 
 /* section3 start */
-.section3{
+.section3 {
     background-image: url('../img/section3.png');
 }
+
 /* section3 end */
 
 /* instagram start */
-.insta-a:before{
+.insta-a:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -328,13 +367,14 @@ marquee div svg {
     border-radius: 0.5rem;
 }
 
-.insta-a:hover:before{
+.insta-a:hover:before {
     opacity: 1;
 }
 
-.insta-a:hover .insta-icon{
+.insta-a:hover .insta-icon {
     display: block;
 }
+
 .insta-icon {
     position: absolute;
     left: 50%;
@@ -342,4 +382,5 @@ marquee div svg {
     transform: translate(-50%, -50%);
     display: none;
 }
+
 /* instagram end */
