@@ -404,4 +404,19 @@ marquee div svg {
 .home-products{
     background: linear-gradient(45deg, #FECF07, #FF6F33);
 }
+.hp-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hp-shape1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 65px;
+    height: 65px;
+    background-color: #feb613;
+    border-top-left-radius: 32px;
+}
 /* home products end */
