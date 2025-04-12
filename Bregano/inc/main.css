@@ -420,3 +420,7 @@ marquee div svg {
     border-top-left-radius: 32px;
 }
 /* home products end */
+
+.banner-box{
+    background-image: url(../img/home-banner.webp);
+}
