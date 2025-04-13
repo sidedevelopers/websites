@@ -56,6 +56,10 @@ body {
     background-color: var(--color-yellow);
 }
 
+.background-purple{
+    background-color: var(--color-purple);
+}
+
 a {
     text-decoration: none;
 }
@@ -424,3 +428,23 @@ marquee div svg {
 .banner-box{
     background-image: url(../img/home-banner.webp);
 }
+
+/* testimonial start */
+.testimonial-div .comma{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.testimonial-shape1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65px;
+    height: 65px;
+    background-color: #F8F7F0;
+    border-bottom-left-radius: 2rem;
+}
+.comma{
+    width: 54px !important;
+}
+/* testimonial end */
