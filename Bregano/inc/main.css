@@ -448,3 +448,9 @@ marquee div svg {
     width: 54px !important;
 }
 /* testimonial end */
+
+.circle{
+    position: absolute;
+    left: -13px;
+    top: -25px;
+}
