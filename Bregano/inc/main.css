@@ -230,6 +230,9 @@ header a:hover {
     .offcanvas-header {
         background-color: var(--color-yellow);
     }
+    header:before {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 400px) {
@@ -390,7 +393,7 @@ marquee div svg {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #00000038;
+    background-color: #0000005c;
     opacity: 0;
     border-radius: 0.5rem;
 }
