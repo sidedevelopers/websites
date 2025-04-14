@@ -230,6 +230,7 @@ header a:hover {
     .offcanvas-header {
         background-color: var(--color-yellow);
     }
+
     header:before {
         display: none;
     }
@@ -536,10 +537,10 @@ marquee div svg {
     width: 100%;
     height: 1px;
     background-color: #b6b6b6;
-    top: 38%;
+    top: 92px;
 }
 
-.history-heading{
+.history-heading {
     color: transparent;
 }
 
@@ -553,11 +554,13 @@ marquee div svg {
     .history-line {
         display: none;
     }
-    .h-dot{
-        display: inline;
+
+    .h-dot {
+        display: none;
         margin-left: 5px;
     }
-    .history-heading{
+
+    .history-heading {
         display: inline;
     }
 }
