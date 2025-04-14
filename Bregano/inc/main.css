@@ -44,7 +44,7 @@ body {
     color: var(--color-skyblue);
 }
 
-.color-yellow{
+.color-yellow {
     color: var(--color-yellow);
 }
 
@@ -56,11 +56,11 @@ body {
     background-color: var(--color-orange);
 }
 
-.background-yellow{
+.background-yellow {
     background-color: var(--color-yellow);
 }
 
-.background-purple{
+.background-purple {
     background-color: var(--color-purple);
 }
 
@@ -78,11 +78,11 @@ a {
 
 .rotate-hover svg {
     transition: transform 0.5s ease;
-  }
-  
-  .rotate-hover:hover svg {
+}
+
+.rotate-hover:hover svg {
     transform: rotate(360deg);
-  }
+}
 
 @media only screen and (max-width: 768px) {
     .fs-heading {
@@ -366,11 +366,13 @@ marquee div svg {
     background-image: url('../img/section3.png');
     background-size: cover;
 }
+
 @media only screen and (max-width: 768px) {
-    .section3{
+    .section3 {
         background-image: none;
     }
-/* .section3:before {
+
+    /* .section3:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -412,9 +414,10 @@ marquee div svg {
 /* instagram end */
 
 /* home products start */
-.home-products{
+.home-products {
     background: linear-gradient(45deg, #FECF07, #FF6F33);
 }
+
 .hp-button {
     position: absolute;
     right: 0;
@@ -430,19 +433,21 @@ marquee div svg {
     background-color: #feb613;
     border-top-left-radius: 32px;
 }
+
 /* home products end */
 
-.banner-box{
+.banner-box {
     background-image: url(../img/home-banner.webp);
 }
 
 /* testimonial start */
-.testimonial-div .comma{
+.testimonial-div .comma {
     position: absolute;
     top: 0;
     right: 0;
 }
-.testimonial-shape1{
+
+.testimonial-shape1 {
     position: absolute;
     top: 0;
     right: 0;
@@ -451,27 +456,32 @@ marquee div svg {
     background-color: #F8F7F0;
     border-bottom-left-radius: 2rem;
 }
-.comma{
+
+.comma {
     width: 54px !important;
 }
+
 /* testimonial end */
 
 
 /* middle card start */
-.circle{
+.circle {
     position: absolute;
     left: -13px;
     top: -25px;
     animation: spin 6s linear infinite;
 }
+
 @keyframes spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
+
 .middlecard-right:before {
     content: '';
     position: absolute;
@@ -483,41 +493,56 @@ marquee div svg {
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
+
 @media only screen and (max-width: 768px) {
     .middlecard-right:before {
         display: none;
     }
-    .middlecard-left{
+
+    .middlecard-left {
         height: 300px;
         border-radius: 2rem;
     }
 }
+
 /* middle card end */
 
-.color-transparent{
+.color-transparent {
     color: transparent;
 }
-.history-heading1{
+
+.history-heading1 {
     -webkit-text-stroke: 1px var(--color-orange);
 }
-.history-heading2{
+
+.history-heading2 {
     -webkit-text-stroke: 1px var(--color-purple);
 }
-.history-heading3{
+
+.history-heading3 {
     -webkit-text-stroke: 1px var(--color-yellow);
 }
-.history-heading4{
+
+.history-heading4 {
     -webkit-text-stroke: 1px var(--color-blue);
 }
-.history-line{
+
+.history-line {
     position: absolute;
     width: 100%;
     height: 1px;
     background-color: #b6b6b6;
-    top: 34%;
+    top: 38%;
 }
+
+@media only screen and (min-width: 768px) {
+    .container-history {
+        max-width: 97%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
-    .history-line{
+    .history-line {
         display: none;
     }
 }
