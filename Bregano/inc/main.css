@@ -507,10 +507,6 @@ marquee div svg {
 
 /* middle card end */
 
-.color-transparent {
-    color: transparent;
-}
-
 .history-heading1 {
     -webkit-text-stroke: 1px var(--color-orange);
 }
@@ -535,6 +531,10 @@ marquee div svg {
     top: 38%;
 }
 
+.history-heading{
+    color: transparent;
+}
+
 @media only screen and (min-width: 768px) {
     .container-history {
         max-width: 97%;
@@ -544,5 +544,12 @@ marquee div svg {
 @media only screen and (max-width: 768px) {
     .history-line {
         display: none;
+    }
+    .h-dot{
+        display: inline;
+        margin-left: 5px;
+    }
+    .history-heading{
+        display: inline;
     }
 }
