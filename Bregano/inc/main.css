@@ -525,7 +525,7 @@ marquee div svg {
     border-bottom-left-radius: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .middlecard-right:before {
         display: none;
     }
