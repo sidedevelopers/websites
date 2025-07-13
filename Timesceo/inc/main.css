@@ -1,5 +1,8 @@
 /* global start */
-
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+:root{
+    --font-castoro: "Castoro", serif;
+}
 /* global end */
 
 /* header start */
@@ -8,5 +11,8 @@
 }
 .nav-item.dropdown .nav-link{
     font-weight: 600;
+}
+.navbar-brand{
+    font-size: 4rem;
 }
 /* header end */
