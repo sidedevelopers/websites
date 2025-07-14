@@ -36,3 +36,10 @@ a:hover{
     font-size: 4rem;
 }
 /* header end */
+
+/* middle banner start */
+.middle-banner{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+/* middle banner end */
