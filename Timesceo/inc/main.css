@@ -1,13 +1,16 @@
 /* global start */
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap'); */
 :root {
     --color-primary: #e7131a;
+    --color-content: #8B7162;
+    --color-body: #fffcf8;
+    --color-body-dark: #fcf3ed;
     --font-castoro: "Castoro", serif;
-    /* --font-Old-Standard-TT: "Old Standard TT", serif; */
-    /* --font-neuton: "Neuton", serif; */
+}
+
+body {
+    background-color: var(--color-body);
 }
 
 .font-castoro {
@@ -21,8 +24,6 @@ h4,
 h5,
 h6 {
     font-family: var(--font-castoro);
-    /* --font-family: var(--font-Old-Standard-TT); */
-    /* --font-family: var(--font-neuton); */
 }
 
 a {
@@ -32,6 +33,18 @@ a {
 
 a:hover {
     color: var(--color-primary);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-content {
+    color: var(--color-content);
+}
+
+.color-body-dark {
+    color: var(--color-body-dark);
 }
 
 /* global end */
@@ -47,6 +60,26 @@ a:hover {
 
 .navbar-brand {
     font-size: 4rem;
+    font-family: emoji;
+}
+
+.front-menu a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: var(--color-content);
+}
+
+.front-menu a:hover {
+    color: var(--color-primary);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.nav-link.dropdown-toggle:hover {
+    color: var(--color-primary);
 }
 
 /* header end */
