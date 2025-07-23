@@ -115,6 +115,23 @@ a:hover {
     padding-left: 0;
 }
 
+.footer-ul li{
+    margin-bottom: 0.8rem;
+}
+.footer-ul li a{
+    color: #fff;
+}
+.footer-ul li a:hover{
+    text-decoration: underline;
+}
+.footer-name{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #212529;
+}
+.footer-name-div{
+    margin-bottom: -20px;
+}
 /* footer end */
 
 /* middle banner start */
