@@ -43,8 +43,8 @@ a:hover {
     color: var(--color-content);
 }
 
-.color-body-dark {
-    color: var(--color-body-dark);
+.background-body-dark {
+    background-color: var(--color-body-dark);
 }
 
 /* global end */
@@ -63,9 +63,13 @@ a:hover {
     font-family: emoji;
 }
 
+.navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
 .front-menu a {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
     color: var(--color-content);
 }
 
@@ -82,7 +86,36 @@ a:hover {
     color: var(--color-primary);
 }
 
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+
+    .offcanvas-header {
+        background-color: var(--color-body-dark);
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
+    }
+}
+
 /* header end */
+
+/* footer start */
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* footer end */
 
 /* middle banner start */
 .middle-banner {
