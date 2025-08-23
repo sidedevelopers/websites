@@ -1,0 +1,138 @@
+/* global start */
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+:root {
+    --color-primary: #052962;
+    --color-red: #C70000;
+    --color-yellow: #ffe500;
+    /* --color-content: #8B7162; */
+    /* --color-body: #fffcf8; */
+    --font-castoro: "Castoro", serif;
+}
+
+.font-castoro {
+    font-family: var(--font-castoro);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-castoro);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+.background-primary{
+    background-color: var(--color-primary);
+}
+
+/* global end */
+
+/* header start */
+/* .dropdown-menu {
+    border: 0;
+}
+
+.nav-item.dropdown .nav-link {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 4rem;
+    font-family: emoji;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.front-menu a {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    color: var(--color-content);
+}
+
+.front-menu a:hover {
+    color: var(--color-primary);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.nav-link.dropdown-toggle:hover {
+    color: var(--color-primary);
+} */
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--color-yellow);
+}
+
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+
+    .offcanvas-header {
+        background-color: var(--color-body-dark);
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
+    }
+}
+
+/* header end */
+
+/* footer start */
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-ul li{
+    margin-bottom: 0.8rem;
+}
+.footer-ul li a{
+    color: #fff;
+}
+.footer-ul li a:hover{
+    text-decoration: underline;
+}
+.footer-name{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #212529;
+}
+.footer-name-div{
+    margin-bottom: -20px;
+}
+.footer-copyright{
+    font-size: small;
+}
+/* footer end */
