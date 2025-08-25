@@ -6,7 +6,7 @@
     --color-primary: #052962;
     --color-red: #C70000;
     --color-yellow: #ffe500;
-    /* --color-content: #8B7162; */
+    --color-content: #707070;
     /* --color-body: #fffcf8; */
     /* --font-castoro: "Castoro", serif; */
     --font-playfair-display: "Playfair Display", serif;
@@ -25,17 +25,25 @@ h6 {
     font-family: var(--font-playfair-display);
 }
 
+p{
+    color: var(--color-content);
+}
+
 a {
     text-decoration: none;
     color: #000;
 }
 
 a:hover {
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
+    text-decoration: underline;
 }
 
 .color-primary {
     color: var(--color-primary);
+}
+.color-red{
+    color: var(--color-red);
 }
 .background-primary{
     background-color: var(--color-primary);
@@ -79,6 +87,15 @@ a:hover {
 .nav-link.dropdown-toggle:hover {
     color: var(--color-primary);
 } */
+
+.front-menu a{
+    font-size: 1.6rem;
+    font-family: var(--font-playfair-display);
+    font-weight: 600;
+    color: #fff;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
 
 .navbar-nav .nav-item .nav-link{
     color: #fff;
