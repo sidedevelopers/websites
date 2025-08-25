@@ -25,7 +25,7 @@ h6 {
     font-family: var(--font-playfair-display);
 }
 
-p{
+p {
     color: var(--color-content);
 }
 
@@ -42,66 +42,62 @@ a:hover {
 .color-primary {
     color: var(--color-primary);
 }
-.color-red{
+
+.color-red {
     color: var(--color-red);
 }
-.background-primary{
+
+.background-primary {
     background-color: var(--color-primary);
+}
+
+@media only screen and (max-width: 768px) {
+  .border-end {
+    border-right: 0 !important;
+  }
 }
 
 /* global end */
 
 /* header start */
-/* .dropdown-menu {
-    border: 0;
-}
-
-.nav-item.dropdown .nav-link {
-    font-weight: 600;
-}
-
-.navbar-brand {
-    font-size: 4rem;
-    font-family: emoji;
-}
-
-.navbar .navbar-toggler:focus {
-    box-shadow: 0 0 0 0;
+.news-carousel img {
+    width: 85px !important;
+    height: 85px !important;
 }
 
 .front-menu a {
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-    color: var(--color-content);
+    font-size: 1.8rem;
+    font-family: var(--font-playfair-display);
+    font-weight: 800;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid;
 }
 
 .front-menu a:hover {
-    color: var(--color-primary);
+    color: var(--color-yellow);
+}
+
+.front-menu a:last-child {
+    border-right: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--color-yellow);
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 0.9rem;
 }
 
 .dropdown-menu .dropdown-item:hover {
     background-color: var(--color-primary);
-    color: #fff;
-}
-
-.nav-link.dropdown-toggle:hover {
-    color: var(--color-primary);
-} */
-
-.front-menu a{
-    font-size: 1.6rem;
-    font-family: var(--font-playfair-display);
-    font-weight: 600;
-    color: #fff;
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-}
-
-.navbar-nav .nav-item .nav-link{
-    color: #fff;
-    font-size: 0.9rem;
-}
-.navbar-nav .nav-item .nav-link:hover{
     color: var(--color-yellow);
 }
 
@@ -109,15 +105,12 @@ a:hover {
     .offcanvas.offcanvas-start {
         width: 350px;
     }
-
-    .offcanvas-header {
-        background-color: var(--color-body-dark);
-    }
-
-    .navbar-brand {
-        font-size: 3rem;
-    }
-
+    .front-menu a {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
 }
 
 @media only screen and (min-width: 350px) and (max-width: 400px) {
@@ -134,24 +127,30 @@ a:hover {
     padding-left: 0;
 }
 
-.footer-ul li{
+.footer-ul li {
     margin-bottom: 0.8rem;
 }
-.footer-ul li a{
+
+.footer-ul li a {
     color: #fff;
 }
-.footer-ul li a:hover{
+
+.footer-ul li a:hover {
     text-decoration: underline;
 }
-.footer-name{
+
+.footer-name {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #212529;
 }
-.footer-name-div{
+
+.footer-name-div {
     margin-bottom: -20px;
 }
-.footer-copyright{
+
+.footer-copyright {
     font-size: small;
 }
+
 /* footer end */
