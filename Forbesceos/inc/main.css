@@ -52,9 +52,12 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .border-end {
-    border-right: 0 !important;
-  }
+    .border-end {
+        border-right: 0 !important;
+    }
+    .border-start {
+        border-left: 0 !important;
+    }
 }
 
 /* global end */
@@ -105,12 +108,13 @@ a:hover {
     .offcanvas.offcanvas-start {
         width: 350px;
     }
+
     .front-menu a {
-    font-size: 1rem;
-    font-weight: 600;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-}
+        font-size: 1rem;
+        font-weight: 600;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 400px) {
