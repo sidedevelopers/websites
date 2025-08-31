@@ -60,3 +60,9 @@ footer{
     text-decoration: none;
 }
 /* footer end */
+
+/* home about start */
+.home-about h3{
+    font-size: 3.4rem;
+}
+/* home about end */
