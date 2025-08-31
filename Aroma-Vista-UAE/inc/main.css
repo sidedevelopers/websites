@@ -1,0 +1,62 @@
+/* global start */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
+:root{
+    --color-primary: #ffc700;
+    --color-footer: #cfcfcf;
+    --font-Urbanist: "Urbanist", sans-serif;
+}
+body{
+    font-family: var(--font-Urbanist);
+}
+a{
+    text-decoration: none;
+    color: var(--color-primary);
+}
+a:hover{
+    text-decoration: underline;
+}
+.color-primary{
+    color: var(--color-primary);
+}
+.background-primary{
+    background-color: var(--color-primary);
+}
+/* global end */
+
+/* addons start */
+
+/* addons end */
+
+/* header start */
+.navbar-nav .nav-item .nav-link{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+/* header end */
+
+/* footer start */
+footer{
+    color: #ababab;
+}
+.footer-ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-ul li{
+    margin-bottom: 10px;
+}
+.footer-ul li a{
+    color: #ababab;
+}
+.footer-ul li a:hover{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+/* footer end */
