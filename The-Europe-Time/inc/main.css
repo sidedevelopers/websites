@@ -1,0 +1,52 @@
+/* global start */
+:root {
+    --color-primary: #0046e6;
+    --color-secondary: #ffd514;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.background-secondary {
+    background-color: var(--color-secondary);
+}
+
+.color-primary{
+    color: var(--color-primary);
+}
+.color-secondary{
+    color: var(--color-secondary);
+}
+
+/* global end */
+
+/* header start */
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+.front-menu a {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+}
+
+/* header end */
+
+/* news start */
+.news-category a{
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-weight: 500;
+}
+/* news end */
