@@ -5,6 +5,9 @@ const swiper = new Swiper('.hero-swiper', {
     autoplay: {
         delay: 5000,
     },
+    keyboard: {
+        enabled: true,
+    },
 
     // If we need pagination
     // pagination: {
@@ -18,7 +21,7 @@ const swiper = new Swiper('.hero-swiper', {
     },
 
     // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
+    // scrollbar: {
+    //     el: '.swiper-scrollbar',
+    // },
 });
