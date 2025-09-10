@@ -29,9 +29,9 @@
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
+                    <div class="offcanvas-header background-primary">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Main Menu</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
@@ -53,7 +53,16 @@
                                 <a class="nav-link" href="#">Contact Us</a>
                             </li>
                         </ul>
-                        <a href="" class="btn btn-warning d-flex align-items-center text-decoration-none">
+                        <a href="" class="d-flex align-items-center fs-4 text-black me-3" title="Search Products">
+                            <i class="bi bi-search"></i>
+                        </a>
+                        <a href="" class="d-flex align-items-center fs-4 text-black me-3" title="My Account">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                        <a href="" class="d-flex align-items-center fs-4 text-black me-3" title="Cart">
+                            <i class="bi bi-cart3"></i>
+                        </a>
+                        <a href="" class="btn btn-warning d-flex align-items-center text-decoration-none rounded-0 shadow">
                             Get A Quote
                         </a>
                     </div>
@@ -71,13 +80,13 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                    <img src="https://craftohtml.themezaa.com/images/demo-logistics-slider-01.jpg" class="w-100"
-                        alt="Slider" />
+                    <img src="https://craftohtml.themezaa.com/images/demo-logistics-slider-01.jpg"
+                        class="w-100 h-100 object-fit-cover" alt="Slider" />
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <h3 class="text-white fw-bold">
+                                    <h3 class="text-white fw-bold fs-3rem">
                                         Provided authentic train cargo solutions nationwide.
                                     </h3>
                                     <p class="text-white fs-5">
@@ -93,14 +102,14 @@
                         </div>
                     </div>
                 </div>
-                                <div class="swiper-slide">
-                    <img src="https://craftohtml.themezaa.com/images/demo-logistics-slider-01.jpg" class="w-100"
-                        alt="Slider" />
+                <div class="swiper-slide">
+                    <img src="https://craftohtml.themezaa.com/images/demo-logistics-slider-01.jpg"
+                        class="w-100 h-100 object-fit-cover" alt="Slider" />
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <h3 class="text-white fw-bold">
+                                    <h3 class="text-white fw-bold fs-3rem">
                                         Provided authentic train cargo solutions nationwide.
                                     </h3>
                                     <p class="text-white fs-5">
@@ -121,10 +130,10 @@
             <div class="swiper-pagination"></div>
 
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev">
+            <div class="swiper-button-prev d-none d-md-flex">
                 <i class="bi bi-arrow-left-short text-white fs-4"></i>
             </div>
-            <div class="swiper-button-next">
+            <div class="swiper-button-next d-none d-md-flex">
                 <i class="bi bi-arrow-right-short text-white fs-4"></i>
             </div>
 
@@ -158,23 +167,25 @@
     <section class="py-5 home-about">
         <div class="container-fluid">
             <div class="container">
-                <div class="row">
+                <div class="row gy-4 gy-md-0">
                     <div class="col-md-6">
                         <img src="https://craftohtml.themezaa.com/images/demo-logistics-home-01.jpg" class="w-100"
                             alt="" />
                     </div>
                     <div class="col-md-1"></div>
                     <div class="col-md-5">
-                        <h3 class="fw-bold lh-1">World best logistics and transportation solutions.</h3>
+                        <h3 class="fw-bold lh-1 fs-3rem">World best logistics and transportation solutions.</h3>
                         <p class="fs-5 mt-3">
                             Logistic group is a representative logistics operator providing full range of service in the
-                            sphere customs clearance worldwide for any type of crago.</p>
-                        <ul class="fs-5">
-                            <li>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur.</li>
-                        </ul>
-                        <a href="" class="btn btn-dark rounded-1 px-4 py-2 mt-2">
+                            sphere customs clearance worldwide for any type of crago. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Ullam, accusantium! Lorem ipsum dolor sit amet.</p>
+                        <p class="fs-5"><i class="bi bi-check-circle-fill me-2"></i>Lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <p class="fs-5"><i class="bi bi-check-circle-fill me-2"></i>Lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <p class="fs-5"><i class="bi bi-check-circle-fill me-2"></i>Lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <a href="" class="btn btn-dark rounded-1 px-4 py-2 mt-2 text-decoration-none">
                             Our Services
                         </a>
                     </div>
@@ -202,7 +213,7 @@
     <footer class="bg-dark py-5">
         <div class="container-fluid">
             <div class="container">
-                <div class="row">
+                <div class="row gy-2 gy-md-0">
                     <div class="col-md-3">
                         <a href="">
                             <img src="https://craftohtml.themezaa.com/images/demo-logistics-logo-white.png" alt="" />
@@ -217,7 +228,7 @@
                     <div class="col-md-8">
 
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-6">
                                 <h5 class="mb-3 text-white">About Services</h5>
                                 <ul class="footer-ul">
                                     <li><a href="">Menu Link</a></li>
@@ -227,7 +238,7 @@
                                     <li><a href="">Menu Link</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-6">
                                 <h5 class="mb-3 text-white">Need Help?</h5>
                                 <ul class="footer-ul">
                                     <li><a href="">Contact Us</a></li>
@@ -250,7 +261,7 @@
 
                 </div>
                 <hr />
-                <div class="row">
+                <div class="row copyright">
                     <div class="col-md-6 text-center text-md-start">
                         Copyright | All rights reserved © 2025 |
                         <a href="">Aroma Vista UAE</a>

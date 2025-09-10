@@ -1,26 +1,43 @@
 /* global start */
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
-:root{
+
+:root {
     --color-primary: #ffc700;
     --color-footer: #cfcfcf;
     --font-Urbanist: "Urbanist", sans-serif;
 }
-body{
+
+body {
     font-family: var(--font-Urbanist);
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--color-primary);
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-.color-primary{
+
+.color-primary {
     color: var(--color-primary);
 }
-.background-primary{
+
+.background-primary {
     background-color: var(--color-primary);
 }
+
+.fs-3rem {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .fs-3rem {
+        font-size: calc(1.375rem + 1.5vw);
+    }
+}
+
 /* global end */
 
 /* addons start */
@@ -28,75 +45,123 @@ a:hover{
 /* addons end */
 
 /* header start */
-.navbar-brand{
+.navbar-brand {
     font-weight: 800;
     font-size: 1.5rem;
 }
-.navbar-nav .nav-item .nav-link{
+
+.navbar-nav .nav-item .nav-link {
     font-weight: 600;
     font-size: 1.1rem;
     color: #000;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
-.navbar-nav .nav-item .nav-link:hover{
+
+.navbar-nav .nav-item .nav-link:hover {
     color: var(--color-primary);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
+    }
+}
+
 /* header end */
 
 /* footer start */
-footer{
+footer {
     color: #ababab;
 }
-.footer-ul{
+
+.footer-ul {
     list-style: none;
     padding-left: 0;
 }
-.footer-ul li{
+
+.footer-ul li {
     margin-bottom: 10px;
 }
-.footer-ul li a{
+
+.footer-ul li a {
     color: #ababab;
 }
-.footer-ul li a:hover{
+
+.footer-ul li a:hover {
     color: var(--color-primary);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .copyright {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .copyright {
+        font-size: 0.75rem;
+    }
+}
+
 /* footer end */
 
 /* hero start */
-.hero-swiper{
+.hero-swiper {
     width: 100%;
     height: 400px;
 }
-.hero-swiper .swiper-slide h3{
-    font-size: 3rem;
-}
-.hero-swiper .swiper-button-next:after, .hero-swiper .swiper-button-prev:after{
+
+.hero-swiper .swiper-button-next:after,
+.hero-swiper .swiper-button-prev:after {
     display: none;
 }
-.hero-swiper .swiper-button-next, .hero-swiper .swiper-button-prev{
+
+.hero-swiper .swiper-button-next,
+.hero-swiper .swiper-button-prev {
     width: 50px;
     height: 50px;
     background-color: #000000be;
     border-radius: 50%;
 }
-.hero-swiper .swiper-button-next{
+
+.hero-swiper .swiper-button-next {
     right: 30px;
 }
-.hero-swiper .swiper-button-prev{
+
+.hero-swiper .swiper-button-prev {
     left: 30px;
 }
-.hero-box{
+
+.swiper-pagination-bullet{
+    background-color: var(--color-primary);
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--color-primary);
+}
+
+.hero-box {
     margin-top: -211px;
     position: relative;
     z-index: 1;
 }
-/* hero end */
 
-/* home about start */
-.home-about h3{
-    font-size: 3.4rem;
+@media only screen and (max-width: 768px) {
+    .hero-swiper {
+        height: 350px;
+    }
+
+    .hero-box {
+        margin-top: 30px;
+    }
 }
-/* home about end */
+
+/* hero end */

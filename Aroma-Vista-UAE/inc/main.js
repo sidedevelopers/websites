@@ -10,9 +10,16 @@ const swiper = new Swiper('.hero-swiper', {
     },
 
     // If we need pagination
-    // pagination: {
-    //     el: '.swiper-pagination',
-    // },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    breakpoints: {
+        768: {
+            pagination: false,
+        },
+    },
 
     // Navigation arrows
     navigation: {
