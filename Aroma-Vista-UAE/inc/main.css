@@ -23,9 +23,16 @@ a:hover {
 .color-primary {
     color: var(--color-primary);
 }
+.color-footer{
+    color: var(--color-footer);
+}
 
 .background-primary {
     background-color: var(--color-primary);
+}
+
+.form-control:focus {
+    box-shadow: unset;
 }
 
 .fs-3rem {
