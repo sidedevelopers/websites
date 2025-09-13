@@ -23,7 +23,8 @@ a:hover {
 .color-primary {
     color: var(--color-primary);
 }
-.color-footer{
+
+.color-footer {
     color: var(--color-footer);
 }
 
@@ -148,10 +149,11 @@ footer {
     left: 30px;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     background-color: var(--color-primary);
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
     background-color: var(--color-primary);
 }
 
@@ -174,15 +176,74 @@ footer {
 /* hero end */
 
 /* f-box start */
-.f-box{
+.f-box {
     width: 80px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.f-box img{
+
+.f-box img {
     width: 45px;
     height: 45px;
 }
+
 /* f-box end */
+
+/* inner banner start */
+.inner-banner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* inner banner end */
+
+/* about us start */
+.award-div {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 0;
+    right: 5%;
+}
+
+.award-div .img1 {
+    position: absolute;
+    top: -50%;
+}
+
+.award-div .img2 {
+    position: absolute;
+    top: -50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .award-div {
+        width: 110px;
+        height: 110px;
+    }
+
+    .award-div .img1 {
+        width: 110px;
+        height: 110px;
+    }
+
+    .award-div .img2 {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+/* about us end */
+
+/* contact page start */
+.contact-map {
+    height: 500px;
+}
+
+.contact-box {
+    margin-top: -10%;
+}
+
+/* contact page end */
