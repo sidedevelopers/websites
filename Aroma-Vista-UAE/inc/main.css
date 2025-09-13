@@ -172,3 +172,17 @@ footer {
 }
 
 /* hero end */
+
+/* f-box start */
+.f-box{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-box img{
+    width: 45px;
+    height: 45px;
+}
+/* f-box end */
