@@ -41,6 +41,10 @@ a:hover {
     font-family: var(--font-pt-sans);
 }
 
+.border-bottom-last:last-child{
+    border-bottom: 0 !important;
+}
+
 /* global end */
 
 /* header start */
