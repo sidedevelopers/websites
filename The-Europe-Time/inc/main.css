@@ -67,6 +67,11 @@ a:hover {
         width: 350px;
     }
 }
+@media only screen and (max-width: 400px) {
+    .offcanvas.offcanvas-start{
+        width: 310px;
+    }
+}
 
 /* header end */
 
