@@ -1,7 +1,19 @@
 /* global start */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
 :root {
     --color-primary: #0046e6;
     --color-secondary: #ffd514;
+    --font-pt-sans: "PT Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-pt-sans);
 }
 
 a {
@@ -17,11 +29,16 @@ a:hover {
     background-color: var(--color-secondary);
 }
 
-.color-primary{
+.color-primary {
     color: var(--color-primary);
 }
-.color-secondary{
+
+.color-secondary {
     color: var(--color-secondary);
+}
+
+.font-pt-sans {
+    font-family: var(--font-pt-sans);
 }
 
 /* global end */
@@ -30,23 +47,34 @@ a:hover {
 .navbar-brand {
     font-size: 3rem;
     font-weight: 800;
+    font-family: serif;
 }
 
 .navbar-brand:hover {
     text-decoration: none;
 }
 
-.front-menu a {
-    margin-left: 0.9rem;
-    margin-right: 0.9rem;
+.navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-family: var(--font-pt-sans);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .offcanvas.offcanvas-start{
+        width: 350px;
+    }
 }
 
 /* header end */
 
 /* news start */
-.news-category a{
+.news-category a {
     text-transform: uppercase;
     color: var(--color-primary);
     font-weight: 500;
 }
+
 /* news end */
