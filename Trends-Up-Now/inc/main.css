@@ -1,0 +1,17 @@
+/* global start */
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100..900&display=swap');
+:root{
+    --font-albert-sans: "Albert Sans", sans-serif;
+}
+body{
+    font-family: var(--font-albert-sans);
+}
+/* global end */
+
+/* header start */
+
+/* header end */
+
+/* footer start */
+
+/* footer end */
