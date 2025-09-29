@@ -1,17 +1,46 @@
 /* global start */
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100..900&display=swap');
-:root{
+
+:root {
+    --color-primary: #0dcaf0;
+    --color-secondary: #dc3545;
     --font-albert-sans: "Albert Sans", sans-serif;
 }
-body{
+
+body {
     font-family: var(--font-albert-sans);
 }
+
+a{
+    text-decoration: none;
+}
+
 /* global end */
 
 /* header start */
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--color-secondary);
+}
 
 /* header end */
 
 /* footer start */
-
+.footer-ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-ul li{
+    margin-bottom: 2px;
+}
 /* footer end */
