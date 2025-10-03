@@ -1,11 +1,121 @@
 /* global start */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+:root {
+    --color-primary: #ffc700;
+    --color-footer: #cfcfcf;
+     --font-league-spartan: "League Spartan", serif;
+     --font-roboto: "Roboto", sans-serif;
+}
 
+body {
+    font-family: var(--font-roboto);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-league-spartan);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-footer {
+    color: var(--color-footer);
+}
+
+.background-primary {
+    background-color: var(--color-primary);
+}
+
+.form-control:focus {
+    box-shadow: unset;
+}
+
+.fs-3rem {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .fs-3rem {
+        font-size: calc(1.375rem + 1.5vw);
+    }
+}
 /* global end */
 
 /* header start */
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
 
+.navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px;
+    }
+}
 /* header end */
 
 /* footer start */
+footer {
+    color: #ababab;
+}
 
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-ul li {
+    margin-bottom: 10px;
+}
+
+.footer-ul li a {
+    color: #ababab;
+}
+
+.footer-ul li a:hover {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .copyright {
+        font-size: 0.75rem;
+    }
+}
 /* footer end */
