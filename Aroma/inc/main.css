@@ -53,9 +53,8 @@ a:hover {
 /* global end */
 
 /* header start */
-.navbar-brand {
-    font-weight: 800;
-    font-size: 1.5rem;
+.navbar-brand img {
+    width: 180px;
 }
 
 .navbar-nav .nav-item .nav-link {
