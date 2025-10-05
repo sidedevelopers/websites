@@ -58,15 +58,15 @@ a:hover {
 }
 
 .btn-global {
-    background-color: var(--color-tertiary);
-    color: #fff;
-    border: var(--color-tertiary);
-}
-
-.btn-global:hover {
     background-color: var(--color-secondary);
     color: #fff;
     border: var(--color-secondary);
+}
+
+.btn-global:hover {
+    background-color: var(--color-tertiary);
+    color: #fff;
+    border: var(--color-tertiary);
 }
 
 .fs-3rem {
