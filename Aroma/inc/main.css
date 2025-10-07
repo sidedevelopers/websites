@@ -53,6 +53,10 @@ a:hover {
     background-color: var(--color-secondary);
 }
 
+.background-tertiary {
+    background-color: var(--color-tertiary);
+}
+
 .form-control:focus {
     box-shadow: unset;
 }
