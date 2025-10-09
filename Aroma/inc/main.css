@@ -193,7 +193,7 @@ footer {
 /* hero end */
 
 /* box info start */
-.box-div:before{
+.box-div:before {
     content: '';
     width: 100%;
     height: 100%;
@@ -202,6 +202,7 @@ footer {
     top: 0;
     z-index: 0;
 }
+
 .box-info {
     background-color: #602118de;
 }
@@ -218,8 +219,14 @@ footer {
     filter: opacity(0.2);
 }
 
-.menthol-png{
+.menthol-png {
     z-index: -1;
+    filter: opacity(0.2);
+}
+
+.perfume-png {
+    width: 350px;
+    z-index: 0;
     filter: opacity(0.2);
 }
 
@@ -227,10 +234,16 @@ footer {
     .pulses-png {
         width: 110px;
     }
-    .menthol-png{
+
+    .menthol-png {
         width: 220px;
-}
-.oils-png{
-    top: -20px;
-}
+    }
+
+    .oils-png {
+        top: -20px;
+    }
+
+    .perfume-png {
+        width: 250px;
+    }
 }
