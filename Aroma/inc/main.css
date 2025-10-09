@@ -154,13 +154,13 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .copyright {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .copyright {
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
 }
 
