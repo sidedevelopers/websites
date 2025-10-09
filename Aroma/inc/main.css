@@ -111,7 +111,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
-      display: block;
+        display: block;
     }
 }
 
@@ -193,7 +193,22 @@ footer {
 /* hero end */
 
 /* box info start */
-.box-info{
+.box-info {
     background-color: #602118de;
 }
+
 /* box info end */
+
+.pulses-png {
+    width: 200px;
+}
+
+.oils-png {
+    width: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    .pulses-png {
+        width: 110px;
+    }
+}
