@@ -77,9 +77,17 @@ a:hover {
     font-size: 3rem;
 }
 
+.sd-border-color{
+    border-color: var(--color-tertiary) !important;
+}
+
+.background-size-cover{
+    background-size: cover;
+}
+
 @media only screen and (max-width: 768px) {
     .fs-3rem {
-        font-size: calc(1.375rem + 1.5vw);
+        font-size: calc(2.375rem + 1.5vw);
     }
 }
 
@@ -247,3 +255,25 @@ footer {
         width: 250px;
     }
 }
+
+/* contact page start */
+.contact-map {
+    height: 500px;
+}
+
+.contact-box {
+    margin-top: -10%;
+}
+
+/* contact page end */
+
+/* inner-banner start */
+.inner-banner:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #00000065;
+}
+/* inner-banner end */
