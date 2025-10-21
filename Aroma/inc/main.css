@@ -85,6 +85,10 @@ a:hover {
     background-size: cover;
 }
 
+.background-position-center{
+    background-position: center;
+}
+
 @media only screen and (max-width: 768px) {
     .fs-3rem {
         font-size: calc(2.375rem + 1.5vw);
