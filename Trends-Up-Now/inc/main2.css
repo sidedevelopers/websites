@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100..900&display=swap');
 
 :root {
-    --color-primary: #cb354e;
+    --color-primary: #0dcaf0;
     --color-secondary: #dc3545;
     --font-albert-sans: "Albert Sans", sans-serif;
 }
@@ -15,22 +15,9 @@ a{
     text-decoration: none;
 }
 
-.color-primary{
-    color: var(--color-primary);
-}
-.background-primary{
-    background-color: var(--color-primary);
-}
-
 /* global end */
 
 /* header start */
-.topbar a{
-    color: #fff;
-}
-.topbar a:hover{
-    color: yellow;
-}
 .navbar-brand img {
     width: 100px;
 }
@@ -39,11 +26,21 @@ a{
     color: #000;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 /* header end */
+
+/* footer start */
+.footer-ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-ul li{
+    margin-bottom: 2px;
+}
+/* footer end */
