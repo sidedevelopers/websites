@@ -1,0 +1,74 @@
+/* global start */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); */
+
+:root {
+    --color-primary: #002aff;
+    /* --color-secondary: #fdf4f3; */
+    /* --color-tertiary: #ffffff; */
+    /* --font-lora: 'Lora', serif; */
+    /* --font-roboto: "Roboto", sans-serif; */
+    /* --font-pt-sans: "PT Sans", sans-serif;  */
+    /* Heading - The Europe Time */
+}
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+    /* color: #000; */
+}
+a:hover{
+    color: var(--color-primary);
+    /* text-decoration: underline; */
+}
+.form-control:focus {
+    box-shadow: unset;
+}
+.color-primary {
+    color: var(--color-primary);
+}
+.background-primary{
+    background-color: var(--color-primary);
+}
+
+/* global end */
+
+/* header start */
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+    font-weight: 500;
+}
+.dropdown-menu .dropdown-item{
+    color: #000;
+    font-weight: 500;
+}
+.navbar-nav .nav-item{
+    position: relative;
+}
+.navbar-nav .nav-item:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background-color: #000;
+    
+}
+/* .navbar-nav .nav-item:not(:first-child):before {
+    background-image: linear-gradient(180deg, #0a0a0a 25%, hsla(0, 0%, 100%, 0) 0);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-size: 2px 4px;
+    border: none;
+    content: "";
+    display: block;
+    height: 16px;
+    position: absolute;
+    width: 1px;
+} */
+
+/* header end */
