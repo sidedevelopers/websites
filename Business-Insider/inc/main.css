@@ -1,62 +1,78 @@
 /* global start */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&display=swap');
 
 :root {
     --color-primary: #002aff;
-    /* --color-secondary: #fdf4f3; */
-    /* --color-tertiary: #ffffff; */
-    /* --font-lora: 'Lora', serif; */
-    /* --font-roboto: "Roboto", sans-serif; */
-    /* --font-pt-sans: "PT Sans", sans-serif;  */
-    /* Heading - The Europe Time */
+    --font-garamond: "EB Garamond", serif;
 }
+
 a {
     text-decoration: none;
     color: #1e1e1e;
     /* color: #000; */
 }
-a:hover{
-    color: var(--color-primary);
-    /* text-decoration: underline; */
+
+a:hover {
+    /* color: var(--color-primary); */
+    text-decoration: underline;
 }
+
 .form-control:focus {
     box-shadow: unset;
 }
+
 .color-primary {
     color: var(--color-primary);
 }
-.background-primary{
+
+.background-primary {
     background-color: var(--color-primary);
+}
+
+.font-garamond {
+    font-family: var(--font-garamond);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-garamond);
 }
 
 /* global end */
 
 /* header start */
-.navbar-brand{
-    font-size: 3rem;
+.navbar-brand {
+    font-size: 3.4rem;
     font-weight: 800;
 }
-.navbar-nav .nav-item .nav-link{
+
+.navbar-nav .nav-item .nav-link {
     color: #000;
     font-weight: 500;
     margin-left: 0.4rem;
     margin-right: 0.4rem;
 }
-.navbar-nav .nav-item .nav-link:hover{
+
+.navbar-nav .nav-item .nav-link:hover {
     color: var(--color-primary);
 }
-.dropdown-menu .dropdown-item{
+
+.dropdown-menu .dropdown-item {
     color: #000;
     font-weight: 500;
 }
-.dropdown-menu .dropdown-item:hover{
+
+.dropdown-menu .dropdown-item:hover {
     background: transparent;
     color: var(--color-primary);
 }
-.navbar-nav .nav-item:not(:first-child):before {
+
+.front-menu .nav-item:not(:first-child):before {
     content: '';
     position: absolute;
     width: 1px;
@@ -65,10 +81,80 @@ a:hover{
     top: 50%;
     transform: translateY(-50%);
 }
-.dropdown-menu[data-bs-popper]{
-    margin-top: 8px;
+
+.dropdown-menu {
+    margin-top: 8px !important;
     border-radius: 0;
     border-top: 3px solid var(--color-primary);
 }
 
+.navbar-dark .navbar-toggler{
+    background-color: #000;
+    border: none; /* Remove default border */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0; /* Ensures proper centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-dark .navbar-toggler:hover {
+    opacity: 0.85;
+}
+
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+
 /* header end */
+
+/* footer start */
+footer {
+    background-color: #faf7f5;
+}
+
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-ul li {
+    margin-bottom: 10px;
+}
+
+.footer-ul li a {
+    font-family: var(--font-garamond);
+}
+
+/* footer end */
+
+/* news start */
+.border-bottom-last:last-child {
+    border-bottom: 0 !important;
+}
+
+.heading-style {
+    background: #fff;
+    margin-top: -38px;
+    position: relative;
+    margin-right: 10%;
+    padding-top: 12px;
+}
+
+.category-style a {
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* news end */
