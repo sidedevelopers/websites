@@ -60,6 +60,7 @@ h6 {
 
 .navbar-nav .nav-item .nav-link:hover {
     color: var(--color-primary);
+    text-decoration: none;
 }
 
 .dropdown-menu .dropdown-item {
@@ -70,6 +71,7 @@ h6 {
 .dropdown-menu .dropdown-item:hover {
     background: transparent;
     color: var(--color-primary);
+    text-decoration: none;
 }
 
 .front-menu .nav-item:not(:first-child):before {
@@ -104,7 +106,7 @@ h6 {
 }
 
 @media (min-width: 992px) {
-    .dropdown:hover .dropdown-menu {
+    .front-menu .dropdown:hover .dropdown-menu {
       display: block;
     }
 }
@@ -138,8 +140,17 @@ footer {
 /* footer end */
 
 /* news start */
+.border-bottom-dashed{
+    border-bottom: 1px dashed #000;
+}
 .border-bottom-last:last-child {
     border-bottom: 0 !important;
+}
+.border-end-dashed{
+    border-right: 1px dashed #000;
+}
+.border-end-last:last-child{
+    border-right: 0 !important;
 }
 
 .heading-style {
