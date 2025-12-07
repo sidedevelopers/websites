@@ -4,6 +4,7 @@
 
 :root {
     --color-primary: #002aff;
+    --color-secondary: #faf7f5;
     --font-garamond: "EB Garamond", serif;
 }
 
@@ -28,6 +29,10 @@ a:hover {
 
 .background-primary {
     background-color: var(--color-primary);
+}
+
+.background-secondary {
+    background-color: var(--color-secondary);
 }
 
 .font-garamond {
@@ -56,12 +61,15 @@ h6 {
     font-weight: 500;
 }
 
-.main-menu .nav-item .nav-link{
+.side-menu .nav-item .nav-link {
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.front-menu .nav-item .nav-link{
+.main-menu .nav-item .nav-link {
     margin-left: 0.4rem;
     margin-right: 0.4rem;
 }
@@ -82,7 +90,7 @@ h6 {
     text-decoration: none;
 }
 
-.front-menu .nav-item:not(:first-child):before {
+.main-menu .nav-item:not(:first-child):before {
     content: '';
     position: absolute;
     width: 1px;
@@ -92,11 +100,10 @@ h6 {
     transform: translateY(-50%);
 }
 
-.main-menu .nav-item:not(:last-child):after {
+.side-menu .nav-item:not(:last-child):after {
     content: '';
     position: absolute;
     width: 100%;
-    height: 1px;
     border-bottom: 1px dashed #000;
 }
 
@@ -106,40 +113,58 @@ h6 {
     border-top: 3px solid var(--color-primary);
 }
 
-.navbar-dark .navbar-toggler{
+.navbar-dark .navbar-toggler {
     background-color: #000;
-    border: none; /* Remove default border */
+    border: none;
+    /* Remove default border */
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    padding: 0; /* Ensures proper centering */
+    padding: 0;
+    /* Ensures proper centering */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .navbar-dark .navbar-toggler:hover {
     opacity: 0.85;
 }
 
 @media (min-width: 992px) {
-    .front-menu .dropdown:hover .dropdown-menu {
-      display: block;
+    .main-menu .dropdown:hover .dropdown-menu {
+        display: block;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .offcanvas {
+        width: 350px !important;
+    }
+
+    .main-menu .nav-item:not(:first-child):before {
+        display: none;
+    }
+
+    .navbar-dark .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas {
+        width: 310px !important;
     }
 }
 
 /* header end */
 
 /* footer start */
-footer {
-    background-color: #faf7f5;
-}
-
 .footer-ul {
     list-style: none;
     padding-left: 0;
@@ -156,16 +181,19 @@ footer {
 /* footer end */
 
 /* news start */
-.border-bottom-dashed{
+.border-bottom-dashed {
     border-bottom: 1px dashed #000;
 }
+
 .border-bottom-last:last-child {
     border-bottom: 0 !important;
 }
-.border-end-dashed{
+
+.border-end-dashed {
     border-right: 1px dashed #000;
 }
-.border-end-last:last-child{
+
+.border-end-last:last-child {
     border-right: 0 !important;
 }
 
@@ -182,6 +210,12 @@ footer {
     color: var(--color-primary);
     font-size: 0.9rem;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .border-end-dashed {
+        border-right: 0;
+    }
 }
 
 /* news end */
