@@ -212,6 +212,24 @@ h6 {
     font-weight: 500;
 }
 
+.card-carousel .owl-nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.card-carousel .owl-nav button {
+  border-radius: 50% !important;
+  border: 1px solid #000 !important;
+  padding: 4px 11px !important;
+  width: 30px;
+  height: 30px;
+  font-size: 19px !important;
+  margin: 0 5px !important;
+}
+.card-carousel .owl-nav button:hover {
+  background-color: #000 !important;
+}
+
 @media only screen and (max-width: 768px) {
     .border-end-dashed {
         border-right: 0;
