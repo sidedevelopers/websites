@@ -1,0 +1,84 @@
+/* global start */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #ff0000;
+    /* --color-secondary: #fdf4f3; */
+    /* --color-tertiary: #ffffff; */
+    --font-lora: 'Lora', serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-pt-sans: "PT Sans", sans-serif;
+    /* Heading - The Europe Time */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+.form-control:focus {
+    box-shadow: unset;
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.color-tertiary {
+    color: var(--color-tertiary);
+}
+
+.background-primary {
+    background-color: var(--color-primary);
+}
+
+.background-secondary {
+    background-color: var(--color-secondary);
+}
+
+.background-tertiary {
+    background-color: var(--color-tertiary);
+}
+
+/* @media only screen and (max-width: 768px){ */
+/* @media only screen and (min-width: 768.1px) and (max-width: 992px){ */
+/* @media only screen and (min-width: 350px) and (max-width: 400px) { */
+
+/* global end */
+
+/* header start */
+.navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--color-primary);
+}
+
+/* header end */
+
+/* margin padding start */
+
+.border-bottom-last:last-child {
+    border-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .border-start {
+        border-left: 0 !important;
+    }
+}
+
+/* margin padding end */
