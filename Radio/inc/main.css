@@ -16,7 +16,7 @@
     --font-libre-baskerville: "Libre Baskerville", serif;
 }
 
-body{
+body {
     font-family: var(--font-libre-baskerville);
 }
 
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .form-control:focus {
@@ -64,13 +64,27 @@ a:hover {
 /* global end */
 
 /* header start */
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
     color: #000;
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
-.navbar-nav .nav-item .nav-link:hover{
+
+.navbar-nav .nav-item .nav-link:hover {
     color: var(--color-secondary);
 }
 
 /* header end */
+
+/* footer start */
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-ul li{
+    margin-bottom: 0.5rem;
+}
+.footer-ul li a{
+    color: #fff;
+}
+/* footer end */
