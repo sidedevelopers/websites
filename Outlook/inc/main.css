@@ -1,16 +1,22 @@
 /* global start */
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
 :root {
     --color-primary: #ff0000;
     --color-content: #6b7b84;
     --font-marcellus: "Marcellus", serif;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-marcellus);
 }
 
-p{
+p {
     color: var(--color-content);
 }
 
@@ -23,19 +29,26 @@ a:hover {
     color: var(--color-primary);
 }
 
-.form-control:focus {
-    box-shadow: unset;
-}
-
 .color-primary {
     color: var(--color-primary);
 }
-.color-content{
+
+.color-content {
     color: var(--color-content);
 }
 
 .background-primary {
     background-color: var(--color-primary);
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1264px;
+    }
 }
 
 /* @media only screen and (max-width: 768px){ */
@@ -52,6 +65,42 @@ a:hover {
 
 .navbar-nav .nav-item .nav-link:hover {
     color: var(--color-primary);
+}
+
+.dropdown-menu {
+    background-color: #000;
+    border-radius: 0;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+}
+
+.dropdown-menu li a:hover {
+    color: var(--color-primary);
+    background-color: #000;
+}
+
+.navbar-toggler:focus {
+    box-shadow: unset;
+}
+
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 350px !important;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .offcanvas.offcanvas-start {
+        width: 310px !important;
+    }
 }
 
 /* header end */
