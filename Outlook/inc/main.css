@@ -42,6 +42,7 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
+
     .container,
     .container-lg,
     .container-md,
@@ -126,3 +127,19 @@ a:hover {
 }
 
 /* margin padding end */
+
+/* news start */
+ol li {
+    margin-bottom: 1.2rem;
+}
+
+ol li:last-child {
+    margin-bottom: 0;
+}
+
+ol li::marker {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+/* news end */
