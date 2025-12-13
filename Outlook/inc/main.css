@@ -41,6 +41,10 @@ a:hover {
     background-color: var(--color-primary);
 }
 
+.a-hover-underline:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 1200px) {
 
     .container,
@@ -142,4 +146,17 @@ ol li::marker {
     font-weight: 500;
 }
 
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: var(--color-primary);
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    color: red;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 /* news end */
